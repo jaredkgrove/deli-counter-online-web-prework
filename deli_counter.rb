@@ -20,8 +20,8 @@ end
 
 def now_serving(line)
   if line.size == 0 
-    
+    puts ""  
   else
     puts "Now serving #{line.unshift}."
-end
+  end
 end

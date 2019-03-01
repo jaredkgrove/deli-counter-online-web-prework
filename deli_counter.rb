@@ -20,7 +20,7 @@ end
 
 def now_serving(line)
   if line.size == 0 
-    puts ""  
+    puts "The line is empty."  
   else
     puts "Now serving #{line.unshift}."
   end
